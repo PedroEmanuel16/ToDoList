@@ -1,0 +1,57 @@
+*{
+    font-family: var(--font);
+}
+.sidebar{
+    background-color: var(--color-primary);
+    width: 100px;
+}
+.navbar{
+    width: calc(100vw - 100px);
+}
+.btn-general{
+    color: #fff !important;
+    background-color: var(--color-primary) !important;
+}
+.btn{
+    transition: all .3s ease-in-out !important;
+}
+.navbar{
+    background-color: var(--background-light);
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.graph{
+    width: 33%;
+}
+.graph-placeholder{
+    background: url('images/graph.png');
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+.rounded-circle{
+    height: 20px;
+    width: 20px !important;
+}
+.task{
+    border-bottom: 1px solid var(--border-color);
+    transition: all .3s ease-in-out;
+}
+.task:hover{
+    background-color: var(--background-light);
+    transform: scale(1.05);
+}
+.actions img{
+    transition: all .3s ease-in-out;
+}
+.actions img:hover{
+    transform: scale(1.66);
+}
+
+@media (max-width: 710px){
+form .w-50{
+   width: 100% !important;
+}
+}
