@@ -41,7 +41,7 @@
 }
 .task:hover{
     background-color: var(--background-light);
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 .actions img{
     transition: all .3s ease-in-out;

@@ -1,4 +1,4 @@
-<main class="d-flex p-4">
+<main class="d-flex p-2">
     <section class="graph pe-5">
         <div class="graph-header d-flex justify-content-between">
             <h2 class="fs-5">Progresso do Dia</h2>

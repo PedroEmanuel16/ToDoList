@@ -6,6 +6,7 @@
 @endsection
 
 @section('content-general')
+
     <form action="{{ route('register.register') }}" method="POST" class="d-flex align-items-center mt-4 flex-column px-4">
         @csrf
 

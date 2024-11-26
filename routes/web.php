@@ -21,5 +21,6 @@ Route::get('/', [TaskController::class, 'index']);
 
 Route::resource('task', TaskController::class);
 Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::post('/login', [LoginController::class, 'login'])->name('login.login');
 Route::get('/register', [RegisterController::class, 'index'])->name('register.index');
 Route::post('/register', [RegisterController::class, 'register'])->name('register.register');

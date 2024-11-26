@@ -1,1 +1,1 @@
-<a href="{{$url ?? '#'}}" class="btn btn-general btn-lg text-light me-4">{{$title}}</a>
+<a href="{{$url ?? '#'}}" class="btn {{isset($class) ? $class : ''}}">{{$title}}</a>
