@@ -18,7 +18,7 @@
                 <img src="{{ asset('assets/images/icon-edit.png') }}"></img>
             </a>
 
-            <form action="{{route('task.destroy', $task->id)}}" method="POST" class="ms-4 bg-transparent">
+            <form action="{{route('task.destroy', $task->id)}}" method="POST" class="ps-4 bg-transparent">
                 @csrf
                 @method('DELETE')
 

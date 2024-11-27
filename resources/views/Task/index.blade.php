@@ -1,7 +1,7 @@
 @extends('Layouts.app')
 
 @section('button')
-    @component('components.button', ['url' => route('task.create'), 'title' => 'Sair', 'class' => 'btn btn-danger btn-lg me-4'])
+    @component('components.button', ['url' => route('logout'), 'title' => 'Sair', 'class' => 'btn btn-danger btn-lg me-4'])
     @endcomponent
     @component('components.button', ['url' => route('task.create'), 'title' => 'Criar Tarefa', 'class' => 'btn-general btn-lg text-light me-4'])
     @endcomponent

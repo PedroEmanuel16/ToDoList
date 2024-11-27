@@ -14,7 +14,7 @@
 <body>
     <div class="container-general d-flex">
         <div class="sidebar vh-100 text-center">
-            <img src="{{ asset('assets/images/logo.png') }}" alt="" class="img-fluid">
+            <img src="{{ asset('assets/images/logo.png') }}" alt="" class="img-logo">
         </div>
         <div class="content">
             <nav class="navbar py-4 d-flex align-items-center justify-content-end">

@@ -25,4 +25,10 @@ class LoginController extends Controller
 
         return redirect()->back()->with(['error' => 'Dados inválidos']);
     }
+
+    public function logout()
+    {
+        Auth::logout(); 
+        return to_route('login'); 
+    }
 }

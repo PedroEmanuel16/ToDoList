@@ -1,5 +1,5 @@
-<main class="d-flex p-2">
-    <section class="graph pe-5">
+<main class="row p-3">
+    <section class="col-4 graph">
         <div class="graph-header d-flex justify-content-between">
             <h2 class="fs-5">Progresso do Dia</h2>
             <div class="graph-date">
@@ -20,7 +20,7 @@
         </div>
     </section>
 
-    <section class="list flex-grow-1">
+    <section class="col-8 list flex-grow-1">
         <div class="list-header">
             <select class="form-select w-auto" aria-label="Select Tasks">
                 <option selected>Todas as Tarefas</option>
